@@ -5,6 +5,7 @@ nb_to_guess = random.randrange(1, 100)
 game = True
 turn = 1
 print("This is an interactive guessing game!")
+print("You have to guess a number between 1 and 99 enter 'exit' for leave")
 while (game == True):
 	response = input("What's your guess between 1 and 99?\n")
 	if (response == "exit"):

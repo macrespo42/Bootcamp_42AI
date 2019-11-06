@@ -28,7 +28,7 @@ class Book:
 			print("ERROR, this recipe type doesn't exist")
 
 	def add_recipe(self, recipe):
-		if (isinstance(recipe,recipe.Recipe)):
+		if (isinstance(recipe, recipe.Recipe)):
 			self.recipes_list[recipe.recipe_type].append(recipe)
 		else:
 			print("ERROR, the recipe must be an instance of Recipe class")
